@@ -1,4 +1,4 @@
-import setupFormHandler from './js/modules/formHandler.js';
+import setupFormHandler from './js/modules/formHandler';
 
 document.addEventListener('DOMContentLoaded', () => {
   setupFormHandler();
