@@ -96,3 +96,10 @@ input[type="submit"] {
   border-color: rgb(0, 0, 0);
   font-weight: bolder;
 }
+
+#message-container {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
