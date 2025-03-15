@@ -3,7 +3,7 @@ name: Build and Deploy to Azure Web App
 on:
   push:
     branches:
-      - develop  # or your deployment branch
+      - develop  #or  your deployment branch
   pull_request:
     branches:
       - develop
