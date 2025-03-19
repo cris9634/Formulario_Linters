@@ -18,17 +18,12 @@ export default function setupFormHandler() {
     const comments = document.getElementById("comments").value;
 
     if (
-      name &&
-      email &&
-      age &&
-      dropdown &&
-      radioButtons &&
-      checkboxes.length > 0 &&
-      comments
+      name && email && age && dropdown && radioButtons && checkboxes.length > 0 && comments
     ) {
       messageContainer.textContent = "FORMULARIO ENVIADO CON EXITO";
       messageContainer.style.color = "green"; // estilo para el mensaje de éxito
       form.reset(); // opcional: resetea el formulario despues de enviarlo
+      console.log("Formulario enviado con éxito");
     } else {
       messageContainer.textContent =
         "Por favor complete todos los campos requeridos.";
