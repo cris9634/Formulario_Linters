@@ -29,7 +29,7 @@ h1 {
 }
 
 p {
-  font-family: 'Italianno', cursive;
+  font-family: "Italianno", cursive;
   font-weight: 300;
   text-align: center;
   margin: 5px auto 50px auto;
@@ -64,7 +64,7 @@ textarea {
   min-height: 1em;
   border-radius: 0.5em;
   font-size: 1.2em;
-  font-family: 'Italianno', cursive;
+  font-family: "Italianno", cursive;
   color: rgb(244, 244, 244);
   background-color: rgba(40, 45, 133, 0.5);
 }
@@ -73,7 +73,7 @@ label {
   display: block;
   margin: 0.5em 0;
   font-size: 1.2em;
-  font-family: 'Italianno', cursive;
+  font-family: "Italianno", cursive;
   color: rgb(244, 244, 244);
   font-weight: bolder;
 }
